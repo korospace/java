@@ -24,6 +24,7 @@ public class TypeDataPrimitif {
         int age1 = 22;
         Integer age2 = age1;
 
+        // byte tesByte = (byte) age2; // error
         byte tesByte = age2.byteValue();
         long tesLong = age2.longValue();
 
